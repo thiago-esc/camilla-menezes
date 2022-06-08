@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box
+}
+
+h1, h2, h3, h4, h5, h6, p, span {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: unset;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  position: relative;
+}
+
+ol, ul {
+  /* list-style: none; */
+  list-style-position: inside;
+  padding-left: 0 !important;
+  margin-bottom: 0;
+}

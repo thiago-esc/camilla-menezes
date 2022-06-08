@@ -1,0 +1,145 @@
+@import './custom.css';
+
+@font-face {
+  font-family: Myriad;
+  src: url(../fonts/MyriadPro-Regular.otf)
+}
+
+@font-face {
+  font-family: Bebas;
+  src: url(../fonts/BebasNeue-Regular.otf)
+}
+
+main.gradient {
+  background-image: linear-gradient(to right, #722608 10%, #b15700 90%);
+}
+
+section.top {
+  background-color: #000;
+  background-image: url(../img/desktop/topo.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 100px 0 60px;
+}
+
+.text-background {
+  display: inline-block;
+  padding: 6px 15px;
+}
+
+.call-background {
+  display: inline-block;
+  padding: 12px 15px;
+}
+
+span.text-background {
+  background-image: linear-gradient(to right, #722608, #b15700 70%);
+  margin-bottom: 6px;
+}
+
+h2.text-background {
+  background: #FFF;
+}
+
+h1 {
+  display: inline-block;
+  font-size: 4rem;
+}
+
+h1, h2 {
+  color: #FFF;
+  letter-spacing: 2px;
+}
+
+h2 {
+  margin-bottom: 40px;
+  font-size: 3.8rem;
+}
+
+h1, h2, h3 {
+  font-family: Bebas;
+  text-transform: uppercase;
+  font-weight: 500;
+  line-height: 1;
+}
+
+h3 {
+  font-size: 3rem;
+  letter-spacing: 1px;
+}
+
+.text-gradient {
+  background-image: linear-gradient(to right, #621934, #a5163e);
+  color: black;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h3.call-background, 
+span.call-background {
+  background: #FFF;
+  z-index: 99;
+}
+
+span.call-background {
+  background: #FFF;
+  padding: 5px 15px;
+}
+
+span.call-background.double-line {
+  margin-bottom: 6px;
+}
+
+p, ul li {
+  color: #FFF;
+  font-family: Myriad;
+  font-size: 22px;
+}
+
+ul li {
+  margin-bottom: 1rem;
+}
+
+ul li:last-child {
+  margin-bottom: 0rem;
+}
+
+.section-01 .box-img img {
+  border-radius: 4px;
+}
+
+.img-relative {
+  position: relative;
+}
+
+.title-absolute {
+  position: absolute;
+  top: -45px;
+  left: 8%;
+}
+
+.section-05 h2 {
+  font-size: 3.2rem;
+  margin-bottom: 0;
+}
+
+.section-05 span.subtitle {
+  color: #FFF;
+  font-family: Myriad;
+  font-size: 2rem;
+}
+
+.section-05 .social a{
+  color: #FFF;
+  display: block;
+  margin: 5px 0;
+}
+
+.section-05 .social a.instagram{
+  font-size: 2.5rem;
+}
+
+.section-05 .social a.whatsapp{
+  font-size: 3rem;
+}

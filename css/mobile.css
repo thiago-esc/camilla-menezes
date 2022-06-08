@@ -1,0 +1,188 @@
+/*////////// Responsive */
+
+/* Smartphones */
+@media (max-width:767px) {
+  section.top {
+    background-image: url(../img/mobile/topo.png);
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+    padding: 30px 0;
+    min-height: 100vh;
+  }
+
+  .logo-img {
+    max-width: 250px;
+  }
+
+  h1 {
+    font-size: 1.6rem;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 2.5rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  p, ul li {
+    font-size: 18px;
+  }
+
+  .box-text,
+  .box-text-no-pad {
+    margin-top: 50px;
+  }
+
+  .box-text-alt {
+    margin-top: 75px;
+  }
+
+  .section-03 .title-absolute-mobile {
+    position: absolute;
+    top: -20px;
+    left: 7%;
+    z-index: 99;
+  }
+
+  .section-04 .title-absolute {
+    top: -20px;
+    left: 5%;
+  }
+
+  .section-05 h2 {
+    font-size: 1.8rem;
+  }
+
+  .section-05 span.subtitle {
+    font-size: 1.5rem;
+  }
+
+  .section-05 .social a.instagram {
+    font-size: 1.6rem;
+  }
+
+  .section-05 .social a.whatsapp {
+    font-size: 1.8rem;
+  }
+
+}
+
+/* Smartphones + Tablets */
+@media (max-width:991px) {
+  .hidden-mobile {
+    display: none;
+  }
+
+  .center-mobile {
+    text-align: center;
+  }
+
+  .justified-mobile p {
+    text-align: justify;
+  }
+
+  h2,
+  .section-05 h2 {
+    margin-bottom: 60px;
+  }
+
+  span.call-background.double-line {
+    display: block;
+  }
+
+  .call-background {
+    padding: 6px 15px;
+  }
+
+  .box-text,
+  .box-text-no-pad {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  
+}
+
+/* Tablets */
+@media (min-width:768px) and (max-width:991px) {
+  .logo-img {
+    max-width: 400px;
+  }
+
+  h1 {
+    font-size: 3.2rem;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 4.2rem;
+  }
+
+  section.top {
+    background-image: url(../img/mobile/topo.png);
+    display: flex;
+    align-items: flex-end;
+    padding: 30px 0;
+    min-height: 120vh;
+  }
+
+  .section-03 .title-absolute-mobile {
+    position: absolute;
+    top: -30px;
+    left: 7%;
+    z-index: 99;
+  }
+
+  .box-text,
+  .box-text-no-pad {
+    margin-top: 75px;
+  }
+
+  .box-text-alt {
+    margin-top: 125px;
+  }
+
+  .section-04 .title-absolute {
+    top: -30px;
+    left: 10%;
+  }
+
+  .section-05 h2 {
+    font-size: 2.5rem;
+  }
+}
+
+/* Netbooks */
+@media (min-width:992px) {
+  .hidden-desktop {
+    display: none;
+  }
+}
+
+/* Netbooks */
+@media (min-width:992px) and (max-width:1199px) {
+  h1 {
+    display: inline-block;
+    font-size: 3.5rem;
+  }
+
+}
+
+/* Netbooks */
+@media (min-width:992px) {
+  .hidden-desktop {
+    display: none;
+  }
+}
+
+/* Desktop + Notbooks */
+@media (min-width:1200px) {
+  section.top {
+    min-height: 120vh;
+  }
+}
